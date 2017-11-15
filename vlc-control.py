@@ -77,8 +77,8 @@ KEY_COMMANDS = dict(map(lambda l: (ord(l[0]), l), (
     KeyInfo('i', 'key key-jump+medium', 'Forw medium', int(COL_1_Y), COL_1, False),
     KeyInfo('o', 'key key-jump+long', 'Forw long', int(COL_1_Y), COL_1, False),
 
-    KeyInfo('+', 'volup', 'Volume Up', int(COL_2_Y), COL_2, False),
-    KeyInfo('-', 'voldown', 'Volume Down', int(COL_2_Y), COL_2, False),
+    KeyInfo('+', 'key key-vol-up', 'Volume Up', int(COL_2_Y), COL_2, False),
+    KeyInfo('-', 'key key-vol-down', 'Volume Down', int(COL_2_Y), COL_2, False),
     KeyInfo('m', 'key key-vol-mute', 'Mute', int(COL_2_Y), COL_2, False),
     KeyInfo('a', 'key key-audio-track', 'Audio Track', int(COL_2_Y), COL_2, False),
     KeyInfo('s', 'key key-subtitle-track', 'Subtitles', int(COL_2_Y), COL_2, False),
